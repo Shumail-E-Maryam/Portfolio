@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shumail-E-Maryam | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Floating animation style -->
+  <style>
+    .floating {
+      animation: floaty 5s ease-in-out infinite;
+
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+  </style>
+</head>
+
+<body class="bg-white text-gray-800 font-sans scroll-smooth">
+<!-- NAVBAR -->
+<header class="bg-blue-950 shadow-md sticky top-0 z-50 text-white">
+  <div class="w-full px-6 lg:px-12 py-4 flex items-center justify-between">
+    
+    <!-- Logo -->
+    <a href="#" class="text-2xl font-extrabold tracking-wide text-white">SEM</a>
+
+    <!-- Navigation Links -->
+    <nav class="hidden md:flex space-x-10 font-medium">
+      <a href="#about" class="hover:text-blue-300 transition">About</a>
+      <a href="#services" class="hover:text-blue-300 transition">Services</a>
+      <a href="#experience" class="hover:text-blue-300 transition">Experience</a>
+      <a href="#projects" class="hover:text-blue-300 transition">Projects</a>
+      <a href="#contact" class="hover:text-blue-300 transition">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+ <!-- HERO SECTION -->
+<section class="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 bg-gradient-to-tr from-blue-100 to-blue-50 pt-28">
+  <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+      Hi, I'm <span class="text-blue-700">Shumail-E-Maryam</span>
+    </h1>
+    <h2 class="text-xl md:text-2xl text-gray-700 mt-4">
+      <span id="typed"></span>
+    </h2>
+    <p class="mt-6 text-gray-800 leading-relaxed">
+      I craft intelligent digital experiences using Python, AI, and sleek front-end design. Passionate about innovation, automation, and building meaningful technology.
+    </p>
+
+    <!-- Socials -->
+    <div class="mt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm">
+      <a href="mailto:shumailemaryam1122@gmail.com" class="flex items-center text-gray-700 hover:text-red-500 transition">
+        <img src="https://www.svgrepo.com/show/303161/gmail-icon-logo.svg" alt="Gmail" class="w-5 h-5 mr-2" />
+        Gmail: shumailemaryam1122@gmail.com
+      </a>
+      <a href="https://www.linkedin.com/in/shumail-e-maryam-a96b182b9" target="_blank" class="flex items-center text-gray-700 hover:text-blue-600 transition">
+        <img src="https://www.svgrepo.com/show/448234/linkedin.svg" alt="LinkedIn" class="w-5 h-5 mr-2" />
+        LinkedIn: /shumail-e-maryam
+      </a>
+    </div>
+
+    <div class="mt-8 flex gap-4">
+      <a href="#projects" class="bg-blue-700 text-white px-6 py-2 rounded shadow hover:bg-blue-800 transition">View Projects</a>
+      <a href="#contact" class="border border-blue-700 text-blue-700 px-6 py-2 rounded hover:bg-blue-100 transition">Contact Me</a>
+    </div>
+  </div>
+
+  <div class="md:w-1/2 flex justify-center" data-aos="fade-left">
+    <img src="pfp-image.webp" alt="Shumail" class="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-blue-200" />
+
+  </div>
+</section>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-5xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-gray-700 text-lg leading-relaxed">
+      I'm a BS Artificial Intelligence student deeply immersed in chatbot development, AI & machine learning , Shopify store development and Meta marketing. Currently working full-time as a Python Bot Developer. My background includes internships at Arch Technologies, DevelopersHub, and Digital Askari Bank — making me adaptive across tech and user domains.I help businesses grow with smart automation, modern websites, and effective digital marketing.
+Let’s build something impactful together!
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="bg-gray-100 py-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-10 text-center">Services</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-white shadow p-6 rounded-lg hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Chatbot Development</h3>
+          <p class="text-gray-600">AI-powered bots with NLP, trained on custom data, deployed across platforms.</p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-lg hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">AI & ML Model Building</h3>
+          <p class="text-gray-600">From dataset cleaning to deploying models for real-world scenarios.</p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-lg hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-blue-600 mb-2">Front-End Web Development</h3>
+          <p class="text-gray-600">Responsive, clean websites using HTML, CSS, Tailwind, and JavaScript.</p>
+        </div>
+        <!-- Shopify -->
+  <div class="bg-white shadow p-6 rounded-lg hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold text-blue-600 mb-2">Shopify Store Development</h3>
+    <p class="text-gray-600">Custom online stores, product pages, themes & secure checkout with Shopify.</p>
+  </div>
+
+  <!-- Meta Marketing -->
+  <div class="bg-white shadow p-6 rounded-lg hover:shadow-lg transition">
+    <h3 class="text-xl font-semibold text-blue-600 mb-2">Meta/Facebook Ads & Marketing</h3>
+    <p class="text-gray-600">Drive traffic & sales through targeted Meta ads, pixel integration, and analytics.</p>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+<section id="experience" class="py-20 bg-gradient-to-b from-white to-blue-50">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Professional Experience</h2>
+    <div class="space-y-8">
+
+      <!-- Technik Nest -->
+      <div class="bg-white border-l-4 border-blue-500 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+        <h3 class="text-lg font-semibold text-blue-800">Bot Developer — Technik Nest</h3>
+        <p class="text-sm text-blue-600">May 2025 – Present</p>
+        <p class="text-sm text-blue-600">Onsite</p>
+        <p class="text-gray-700 mt-2">Creating chatbots, implementing NLP techniques, and collaborating with teams to enhance flows.</p>
+      </div>
+
+      <!-- Developers Hub Cooperation -->
+      <div class="bg-white border-l-4 border-purple-500 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+        <h3 class="text-lg font-semibold text-purple-800">AI/ML Intern — Developers Hub Cooperation</h3>
+        <p class="text-sm text-blue-600">June 2025-July 2025</p>
+        <p class="text-sm text-purple-600">Remote</p>
+        <p class="text-gray-700 mt-2">Contributed to machine learning pipelines, handled real-world data preprocessing, and supported model evaluation workflows.</p>
+      </div>
+
+      <!-- Arch Technologies -->
+      <div class="bg-white border-l-4 border-indigo-500 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+        <h3 class="text-lg font-semibold text-indigo-800">AI/ML Intern — Arch Technologies & Developers Hub</h3>
+        <p class="text-sm text-blue-600">May 2025-June 2025</p>
+        <p class="text-sm text-indigo-600">Remote</p>
+        <p class="text-gray-700 mt-2">Built models, created visualizations, and automated data tasks using Python libraries.</p>
+      </div>
+
+      <!-- Askari Bank -->
+      <div class="bg-white border-l-4 border-green-500 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+        <h3 class="text-lg font-semibold text-green-800">Account Opening — Askari Digital Bank</h3>
+        <p class="text-sm text-blue-600">June 2024-August 2024</p>
+        <p class="text-sm text-green-600">Onsite</p>
+        <p class="text-gray-700 mt-2">Facilitated account openings and improved onboarding documentation and communication workflows.</p>
+      </div>
+
+      <!-- FG JAS Public School -->
+      <div class="bg-white border-l-4 border-yellow-500 p-6 rounded-lg shadow hover:shadow-lg transition duration-300">
+        <h3 class="text-lg font-semibold text-yellow-800">IT Assistant — FG JAS Public School</h3>
+        <p class="text-sm text-yellow-600">Internship — Summer 2025</p>
+        <p class="text-gray-700 mt-2">Supported IT systems and provided on-ground tech assistance in a school environment.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <!-- PROJECTS -->
+  <section id="projects" class="bg-gradient-to-b from-white to-blue-50 py-20">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-4xl font-extrabold mb-14 text-center text-blue-900">Featured Projects</h2>
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <!-- Project 1 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">End-to-End Medical Chatbot</h3>
+  <p class="text-gray-700 text-sm mb-4">Built using Python, OpenAI API & HuggingFace with PDF knowledge base. Designed for conversational responses.</p>
+  <div class="flex justify-center gap-4 text-sm">
+    <a href="https://github.com/Shumail-E-Maryam/End-to-End-Medical-Chatbot-built-with-Gradio" class="text-blue-600 hover:underline" target="_blank">GitHub</a>
+    <a href="https://medical-chatbot-demo.netlify.app" class="text-blue-600 hover:underline" target="_blank">Live Demo</a>
+  </div>
+</div>
+
+<!-- Project 2 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">Smart Mining Helmet (Award-Winning)</h3>
+  <p class="text-gray-700 text-sm mb-4">IoT-based helmet with gas sensors and emergency alerts. Placed 3rd in national competition.</p>
+</div>
+
+<!-- Project 3 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">Telco Churn Prediction</h3>
+  <p class="text-gray-700 text-sm mb-4">Analyzed telecom data using ML algorithms to predict customer churn.</p>
+  <div class="flex justify-center gap-4 text-sm">
+    <a href="https://github.com/Shumail-E-Maryam/telco-churn-prediction" class="text-blue-600 hover:underline" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 4 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">Housing Price Prediction</h3>
+  <p class="text-gray-700 text-sm mb-4">Used regression models to estimate housing prices in California.</p>
+  <div class="flex justify-center gap-4 text-sm">
+    <a href="https://github.com/Shumail-E-Maryam/california-housing-ml" class="text-blue-600 hover:underline" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 5 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">MNIST Digit Recognition</h3>
+  <p class="text-gray-700 text-sm mb-4">Used deep learning to identify handwritten digits from image data.</p>
+  <div class="flex justify-center gap-4 text-sm">
+    <a href="https://github.com/Shumail-E-Maryam/mnist-digit-classifier-gradio" class="text-blue-600 hover:underline" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 6 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">Crop Prediction Web App</h3>
+  <p class="text-gray-700 text-sm mb-4">Suggested optimal crops based on environmental and soil data using ML.</p>
+  <div class="flex justify-center gap-4 text-sm">
+    <a href="https://github.com/Shumail-E-Maryam/crop-prediction-app" class="text-blue-600 hover:underline" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<!-- Project 7 -->
+<div class="bg-[#f9f9fb] text-gray-800 border border-gray-200 shadow rounded-lg p-6 text-center hover:shadow-md transition floating">
+  <h3 class="text-xl font-bold text-blue-700 mb-2">Shopify E-Commerce Store</h3>
+  <p class="text-gray-700 text-sm mb-4">Built a Shopify store with product listings and payment integration.</p>
+  <div class="text-sm">
+    <a href="https://shu-skincare.myshopify.com/" class="text-blue-600 hover:underline" target="_blank">Visit Store</a>
+    <p class="text-gray-500 mt-1">🔒 Password: <code class="bg-gray-100 px-1 rounded">Maxcore</code></p>
+  </div>
+</div>
+
+
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-16 text-center bg-gradient-to-b from-white to-blue-50">
+  <h2 class="text-3xl font-bold mb-10">Technical Skills</h2>
+  <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-4">
+    <span class="px-4 py-2 rounded-full bg-blue-100 text-blue-800 font-medium hover:scale-110 transition transform duration-300">Python</span>
+    <span class="px-4 py-2 rounded-full bg-purple-100 text-purple-800 font-medium hover:scale-110 transition transform duration-300">C++</span>
+    <span class="px-4 py-2 rounded-full bg-yellow-100 text-yellow-800 font-medium hover:scale-110 transition transform duration-300">JavaScript</span>
+    <span class="px-4 py-2 rounded-full bg-pink-100 text-pink-800 font-medium hover:scale-110 transition transform duration-300">HTML & CSS</span>
+    <span class="px-4 py-2 rounded-full bg-indigo-100 text-indigo-800 font-medium hover:scale-110 transition transform duration-300">Pandas</span>
+    <span class="px-4 py-2 rounded-full bg-teal-100 text-teal-800 font-medium hover:scale-110 transition transform duration-300">NumPy</span>
+    <span class="px-4 py-2 rounded-full bg-red-100 text-red-800 font-medium hover:scale-110 transition transform duration-300">Responsive Web Design</span>
+    <span class="px-4 py-2 rounded-full bg-fuchsia-100 text-fuchsia-800 font-medium hover:scale-110 transition transform duration-300">Vs</span>
+    <span class="px-4 py-2 rounded-full bg-emerald-100 text-emerald-800 font-medium hover:scale-110 transition transform duration-300">Git & GitHub</span>
+    <span class="px-4 py-2 rounded-full bg-emerald-100 text-emerald-800 font-medium hover:scale-110 transition transform duration-300">Shopify Store Setup & Liquid Customization</span>
+    <span class="px-4 py-2 rounded-full bg-emerald-100 text-emerald-800 font-medium hover:scale-110 transition transform duration-300">Meta Ads (Facebook & Instagram)</span>
+
+  </div>
+</section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="bg-blue-50 py-20">
+  <div class="max-w-5xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Certifications & Workshops</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-lg font-semibold text-blue-700">Hacking AI</h3>
+        <p class="text-sm text-gray-600 mt-1">Certified course on securing AI systems.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-lg font-semibold text-blue-700">ChatGPT Prompt Engineering</h3>
+        <p class="text-sm text-gray-600 mt-1">DeepLearning.AI certification for developers using LLMs.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-lg font-semibold text-blue-700">HP LIFE – Data Science & Analytics</h3>
+        <p class="text-sm text-gray-600 mt-1">Training on using data for insights and business decisions.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-lg font-semibold text-blue-700">Model United Nations – GIMUN & AMUN</h3>
+        <p class="text-sm text-gray-600 mt-1">Participated in international diplomacy and negotiation events.</p>
+      </div>
+
+      <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="text-lg font-semibold text-blue-700">AI/Tech Seminars & Workshops</h3>
+        <p class="text-sm text-gray-600 mt-1">Attended various AI and technology-related learning events.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+   <!-- CONTACT -->
+<section id="contact" class="py-20 bg-gradient-to-t from-blue-50 to-white text-center">
+  <div class="max-w-2xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-gray-800 mb-6">Let's Connect</h2>
+    <p class="text-gray-700 text-lg mb-6">I'm open to collaborations, freelance opportunities, internships, or just good tech conversations! Reach out anytime 👋</p>
+
+    <div class="flex justify-center gap-6 mb-6">
+      <a href="mailto:shumailemaryam1217@gmail.com" class="text-blue-600 hover:text-blue-800 transition text-xl font-medium">📧 Gmail</a>
+      <a href="https://wa.me/923406596936" target="_blank" class="text-green-600 hover:text-green-800 transition text-xl font-medium">💬 WhatsApp</a>
+      <a href="https://www.linkedin.com/in/shumail-e-maryam-a96b182b9" target="_blank" class="text-blue-700 hover:text-blue-900 transition text-xl font-medium">🔗 LinkedIn</a>
+    </div>
+
+ <p class="text-gray-500">Want to explore more? <a href="https://github.com/Shumail-E-Maryam" target="_blank" class="text-blue-600 hover:underline">Visit my GitHub →</a></p>  </div>
+</section>
+
+<footer class="text-center text-sm text-gray-500 py-6">
+  &copy; 2025 Shumail-E-Maryam. All rights reserved.
+</footer>
+
+
+
+  <script>
+    new Typed("#typed", {
+      strings: ["AI/ML Intern 👩‍💻", "Python Developer 🐍", "Chatbot Engineer 🤖", "Front-End Dev 💻"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
+
+
